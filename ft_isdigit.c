@@ -6,14 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 07:40:59 by etavera-          #+#    #+#             */
-/*   Updated: 2022/12/12 14:47:27 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:27:55 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
-#include <ctype.h>
-#include <libft.h>
+#include "libft.h"
 
 int	ft_isdigit(int c)
 {

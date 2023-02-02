@@ -6,11 +6,10 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:59:10 by etavera-          #+#    #+#             */
-/*   Updated: 2023/01/25 09:02:32 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:29:20 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 #include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)

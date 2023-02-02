@@ -6,13 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 19:13:52 by etavera-          #+#    #+#             */
-/*   Updated: 2022/12/13 17:16:50 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:26:51 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include "libft.h"
 
 int	ft_atoi(char *str)
 {

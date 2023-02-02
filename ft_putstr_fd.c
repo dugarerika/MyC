@@ -6,12 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:59:15 by etavera-          #+#    #+#             */
-/*   Updated: 2023/01/25 09:11:59 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:29:12 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_putstr_fd(char *str, int fd)
 {

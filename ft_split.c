@@ -6,12 +6,10 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:50:45 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 07:29:44 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:29:08 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 static int	ft_count_word(char const *s, char c)

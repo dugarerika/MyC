@@ -6,13 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:12:05 by etavera-          #+#    #+#             */
-/*   Updated: 2022/12/21 06:17:29 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:28:35 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
+#include "libft.h"
 
 size_t	ft_length1(char *s)
 {

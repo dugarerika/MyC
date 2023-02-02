@@ -6,14 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 12:20:37 by etavera-          #+#    #+#             */
-/*   Updated: 2022/12/12 12:57:56 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:26:58 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
-#include <libft.h>
+#include "libft.h"
 
 /*
      The bzero() function writes n zeroed bytes to the string s.  If n is

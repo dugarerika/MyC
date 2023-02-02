@@ -6,14 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 08:11:42 by etavera-          #+#    #+#             */
-/*   Updated: 2022/12/12 15:03:22 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:27:10 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
-#include <ctype.h>
-#include <libft.h>
+#include "libft.h"
 
 int	ft_isalnum(int c)
 {

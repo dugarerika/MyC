@@ -6,13 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 11:47:24 by etavera-          #+#    #+#             */
-/*   Updated: 2023/01/25 11:33:36 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:29:05 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {

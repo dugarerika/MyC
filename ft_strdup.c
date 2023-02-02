@@ -6,12 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/01 17:30:45 by etavera-          #+#    #+#             */
-/*   Updated: 2023/01/25 09:07:51 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:28:53 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
+#include "libft.h"
 
 int	ft_strlenth(char *str)
 {

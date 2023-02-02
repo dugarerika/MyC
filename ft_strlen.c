@@ -6,13 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 10:15:52 by etavera-          #+#    #+#             */
-/*   Updated: 2022/12/12 08:01:45 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:28:21 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
 
 /*
      The strlen() function computes the length of the string s.  The strnlen()

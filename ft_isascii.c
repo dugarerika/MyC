@@ -6,14 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 09:31:19 by etavera-          #+#    #+#             */
-/*   Updated: 2022/12/12 13:15:33 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:27:51 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
-#include <ctype.h>
-#include <libft.h>
+#include "libft.h"
 
 int	ft_isascii(int c)
 {

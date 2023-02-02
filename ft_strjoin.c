@@ -6,12 +6,10 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:50:42 by etavera-          #+#    #+#             */
-/*   Updated: 2023/01/27 10:55:29 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:28:41 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)

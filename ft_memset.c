@@ -6,14 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 10:17:39 by etavera-          #+#    #+#             */
-/*   Updated: 2022/12/12 13:08:49 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:29:28 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
-#include <string.h>
-#include <libft.h>
+#include "libft.h"
 
 void	*ft_memset(void *str, int a, unsigned int n)
 {
