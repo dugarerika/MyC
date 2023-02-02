@@ -6,7 +6,7 @@
 #    By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/02 08:19:03 by etavera-          #+#    #+#              #
-#    Updated: 2023/02/02 09:11:19 by etavera-         ###   ########.fr        #
+#    Updated: 2023/02/02 11:10:10 by etavera-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ OBJS			= $(SRCS:.c=.o)
 
 CC				= cc
 RM				= rm -f
-CFLAGS			= -Wall -Wextra -Werror -I.
+CFLAGS			= -Wall -Wextra -Werror
 
 NAME			= libft.a
 

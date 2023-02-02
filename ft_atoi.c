@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 19:13:52 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:26:51 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:16:53 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,11 +40,3 @@ int	ft_atoi(char *str)
 	}
 	return (result * neg);
 }
-
-// int	main()
-// {
-// 	char str[] = " -+++++-01234ab567";
-// 	printf("%d",ft_atoi(str));
-// /* 	printf("%s", "\n");
-// 	printf("%d", atoi(str)); */
-// }

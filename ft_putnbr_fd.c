@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:59:03 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:29:16 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:20:09 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,3 @@ void	ft_putnbr_fd(int a, int fd)
 		write(fd, &c, 1);
 	}
 }
-
-// int	main(void)
-// {
-// 	ft_putnbr_fd(5, 1);
-// 	ft_putnbr_fd(-5, 2);
-// }

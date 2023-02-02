@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 06:25:04 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:27:48 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:17:44 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,11 +23,3 @@ int	ft_isalpha(int c)
 	result = 0;
 	return (result);
 }
-
-// int	main(void)
-// {
-// char *str = "12Q+abc12";
-// printf("result%d", isalpha(str[2]));
-// printf("result%d", ft_isalpha(str[2]));
-// return 0;
-// }

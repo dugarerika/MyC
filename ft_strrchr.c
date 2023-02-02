@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/10 05:57:19 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:38:46 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:28:30 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,18 +46,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-// int main(void)
-// {
-// const char *s = "there is so \0ma\0ny \0 \\0 in t\0his stri\0ng !\0\0\0\0";;
-// const char c = '\0';
-// char *p1;
-// char *p2;
-// int r;
-// p1 = ft_strrchr(s,c);
-// p2 = strrchr(s,c);
-// printf("%s", p1);
-// printf("%s", p2);
-// r = length1(s);
-// printf("%u", r);
-// }

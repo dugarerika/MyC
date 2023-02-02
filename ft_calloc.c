@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/21 12:01:34 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:27:04 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:17:12 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,13 +30,3 @@ void	*ft_calloc(size_t count, size_t size)
 	}
 	return (p);
 }
-
-// int main()
-// {
-
-// 	char *str = (char *)ft_calloc(30, 1);
-// 			if (!str)
-// 			write(1, "NULL", 4);
-// 		else
-// 			write(1, str, 30);
-// }

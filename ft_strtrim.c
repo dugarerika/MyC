@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:50:26 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:42:45 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:22:32 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,13 +37,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	}
 	return (ts1);
 }
-
-// int	main(void)
-// {
-// 	char const	*s1 = "";
-// 	char const	*s2 = "";
-// 	char	*ret;
-// 	ret = ft_strtrim(s1, s2);
-// 	int r = strcmp(ret, "");
-// 	printf("%d", r);
-// }

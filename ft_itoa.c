@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:51:11 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:41:58 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:18:07 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,15 +67,3 @@ char	*ft_itoa(int n)
 	else
 		return (ft_core(n));
 }
-
-// int	main(void)
-// {
-// 	int longitud;
-// 	int s1 = 0;
-// 	char	*ret;
-// 	ret = ft_itoa(s1);
-// 	longitud = strlen(ret);
-// 	// int r = strcmp(ret, "");
-// 	printf("%s", ret);
-// 	printf("%d", longitud);
-// }

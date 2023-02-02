@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:59:24 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:38:12 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:22:15 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-
-// int	main(void)
-// {
-// 	return (0);
-// }

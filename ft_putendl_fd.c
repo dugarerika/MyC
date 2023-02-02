@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:59:10 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:29:20 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:16:44 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,3 @@ void	ft_putendl_fd(char *s, int fd)
 	write(fd, s, ft_strlen(s));
 	write(fd, "\n", 1);
 }
-
-// int	main(void)
-// {
-// 	ft_putchar_fd(8369, 1);
-// }

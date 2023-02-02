@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/21 06:50:20 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:38:42 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:22:21 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,13 +37,3 @@ char	*ft_strnstr(char *str, char *to_find, size_t len)
 	}
 	return (0);
 }
-
-// int main(void)
-// {
-// 	// char str[] = "Total Ar1 @@@@";
-// 	// char to_find[] = "rf1";
-// 	// printf("%s", ft_strnstr(str,to_find, 0));
-// 	printf("%s", ft_strnstr("lorem ipsum dolor sit amet", "dolor", 15));
-// 	printf("%s", strnstr("lorem ipsum dolor sit amet", "dolor", 15));
-// 	return (0);
-// }

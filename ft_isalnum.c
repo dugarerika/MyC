@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 08:11:42 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:27:10 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:17:40 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,17 +23,3 @@ int	ft_isalnum(int c)
 	result = 0;
 	return (result);
 }
-
-// int	main(void)
-// {
-// char str[] = "12 Q+abc12";
-// printf("result%d", isalnum(str[2]));
-// printf("result%d", ft_isalnum(str[2]));
-// printf("result%d", isalnum(str[3]));
-// printf("result%d", ft_isalnum(str[3]));
-// printf("result%d", isalnum(str[4]));
-// printf("result%d", ft_isalnum(str[4]));
-// printf("result%d", isalnum(str[5]));
-// printf("result%d", ft_isalnum(str[5]));
-// return 0;
-// }

@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:59:06 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:29:24 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:19:58 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,3 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
-
-// int	main(void)
-// {
-// 	ft_putchar_fd(8369, 1);
-// }

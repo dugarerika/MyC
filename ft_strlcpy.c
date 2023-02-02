@@ -6,11 +6,13 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 11:42:19 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:35:10 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:22:04 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <unistd.h>
+#include <stdio.h>
+#include <string.h>
 
 /*
      The strlcpy() and strlcat() functions copy and concatenate strings with
@@ -54,17 +56,3 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 		dest[j] = '\0';
 	return (i);
 }
-
-// int	main(void)
-// {
-// 	// char	primero[] = "primero";
-// 	// char 	ultimo[] = "ultimo";
-// 	// int r;
-// 	// int s;
-// 	char dest[20], src[20], dest2[20];
-// 	strcpy(dest, "destino thi");
-// 	strcpy(dest2, "destino thi");
-// 	strcpy(src, "fuente thi");
-// 	printf("%zu %s\n",(strlcpy(dest, src, 0)), dest);
-// 	printf("%zu %s",(ft_strlcpy(dest2, src, 0)),dest2);
-// }

@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:59:15 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:29:12 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:16:37 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,20 +25,3 @@ void	ft_putstr_fd(char *str, int fd)
 		i++;
 	}
 }
-
-// int	main(void)
-// {
-// 	char	i;
-// 	char	j;
-// 	char	*k;
-// 	char	*l;
-
-// 	k = "Hello";
-// 	j = '2';
-// 	// k = &i;
-// 	// l = &j;
-
-// 	ft_putstr(k);
-
-// 	return (0);
-// }

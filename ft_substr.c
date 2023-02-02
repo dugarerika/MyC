@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:50:22 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:42:50 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:22:38 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,12 +36,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	tr[j] = '\0';
 	return ((char *)tr);
 }
-
-// int	main(void)
-// {
-// 	// char	*str = "01234";
-// 	// size_t	size = 10;
-// 	char	*ret;
-// 	ret = ft_substr("tripouille", 0, 42000);
-// 	printf("%s", ret);
-// }

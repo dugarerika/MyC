@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 09:50:10 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:41:35 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:18:00 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,3 @@ int	ft_isprint(int c)
 	result = 0;
 	return (result);
 }
-
-// int	main(void)
-// {
-// 	char	*str = "\n1234";
-// 	printf ("result %d", isprint(str[0]));
-// 	printf ("result %d", ft_isprint(str[0]));
-// }

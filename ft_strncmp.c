@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 06:27:06 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:38:37 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:18:52 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,11 +35,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// const char *s1 = "THis is the string s1";
-// const char *s2 = "This is the string s2";
-// printf("%d",ft_strncmp(s1,s2,2));
-// printf("%d",strncmp(s1,s2,2));
-// }

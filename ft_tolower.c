@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 13:54:03 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 09:42:56 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 11:16:28 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,3 @@ int	ft_tolower(int str)
 	}
 	return (str);
 }
-
-// int	main(void)
-// {
-// char str = 'A';
-// printf("result %c", ft_tolower(str));
-// printf("result %c", tolower(str));
-// }
