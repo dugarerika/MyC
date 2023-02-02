@@ -6,13 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/10 05:57:19 by etavera-          #+#    #+#             */
-/*   Updated: 2023/01/23 11:52:36 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:38:46 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
+#include "libft.h"
 
 int	length1(const char *s)
 {

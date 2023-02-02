@@ -6,13 +6,10 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/21 06:50:20 by etavera-          #+#    #+#             */
-/*   Updated: 2023/01/23 12:16:15 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:38:42 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
 #include "libft.h"
 
 char	*ft_strnstr(char *str, char *to_find, size_t len)
