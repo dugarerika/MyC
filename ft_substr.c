@@ -6,12 +6,10 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:50:22 by etavera-          #+#    #+#             */
-/*   Updated: 2023/01/27 14:29:11 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:42:50 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)

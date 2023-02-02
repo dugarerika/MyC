@@ -6,13 +6,10 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:50:26 by etavera-          #+#    #+#             */
-/*   Updated: 2023/01/31 10:39:12 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:42:45 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "libft.h"
 
 char	*ft_strtrim(char const *s1, char const *set)

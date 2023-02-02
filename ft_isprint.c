@@ -6,13 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 09:50:10 by etavera-          #+#    #+#             */
-/*   Updated: 2022/12/13 07:10:52 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:41:35 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
-#include <ctype.h>
+#include "libft.h"
 
 /*
 The isprint() function tests for any printing character, including space

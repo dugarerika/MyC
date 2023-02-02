@@ -6,13 +6,11 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 09:44:54 by etavera-          #+#    #+#             */
-/*   Updated: 2022/12/13 14:10:40 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:42:09 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

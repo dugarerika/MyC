@@ -6,13 +6,10 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 08:03:13 by etavera-          #+#    #+#             */
-/*   Updated: 2023/01/23 11:43:42 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:42:04 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
 #include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)

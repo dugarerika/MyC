@@ -6,13 +6,10 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:51:11 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 06:48:13 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/02 09:41:58 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "libft.h"
 
 int	ft_len(int n)
