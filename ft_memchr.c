@@ -6,11 +6,16 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 08:03:13 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 11:12:52 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/03 11:22:59 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+     The memchr() function locates the first occurrence of c
+	 (converted to an unsigned char) in string s.
+*/
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
@@ -35,18 +40,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-
-// int main(void)
-// {
-// const char *s = "there is so \0ma\0ny \0 \\0 in t\0his stri\0ng !\0\0\0\0";;
-// const char c = '\0';
-// char *p1;
-// char *p2;
-// int r;
-// p1 = ft_strrchr(s,c);
-// p2 = strrchr(s,c);
-// printf("%s", p1);
-// printf("%s", p2);
-// r = length1(s);
-// printf("%u", r);
-// }

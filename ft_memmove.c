@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 11:39:54 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 11:13:25 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/03 14:19:05 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
      manner.
 */
 
-void	*ft_memmove(void *dest, void *src, size_t n )
+void	*ft_memmove(void *dest, const void *src, size_t n )
 {
 	size_t			i;
 	unsigned char	*pd;
@@ -44,20 +44,3 @@ void	*ft_memmove(void *dest, void *src, size_t n )
 	}
 	return (dest);
 }
-
-// int	main(void)
-// {
-// 	char	dest[50];
-// 	char	src[50];
-
-// 	strcpy(dest, "destino information informacion");
-// 	puts(dest);
-// 	strcpy(src, "fuente information informacion");
-// 	puts(src);
-// 	memmove(dest, src, 0);
-// 	puts(src);
-// 	puts(dest);
-// 	ft_memmove(dest, src, 0);
-// 	puts(src);
-// 	puts(dest);
-// }

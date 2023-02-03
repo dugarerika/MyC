@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:12:05 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 11:15:38 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/03 11:26:46 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,23 +50,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 		return (lsrc);
 	return (psize + lsrc);
 }
-
-// int	main(void)
-// {
-// 	char	dst[15];
-// 	char	dst2[15];
-// 	memset(dst, 0, 15);
-// 	memset(dst2, 0, 15);
-// 	memset(dst, 'r', 6);
-// 	memset(dst2, 'r', 6);
-// 	dst[10] = 'a';
-// 	dst2[10] = 'a';
-// 	char	src[] = "lorem ipsum dolor sit amet";
-// 	size_t	r;
-// 	size_t s;
-// 	r = strlcat(dst,src,6);
-// 	s = ft_strlcat(dst2,src,6);
-// 	printf("Value returned orig : %zu\n%s\n", r,dst);
-// 	printf("Value returned mine: %zu\n%s\n", s, dst2);
-
-// }

@@ -6,13 +6,13 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 19:13:52 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 11:16:53 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/03 13:05:14 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_atoi(char *str)
+int	ft_atoi(const char *str)
 {
 	int	neg;
 	int	result;

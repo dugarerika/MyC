@@ -6,7 +6,7 @@
 #    By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/02 08:19:03 by etavera-          #+#    #+#              #
-#    Updated: 2023/02/02 11:10:10 by etavera-         ###   ########.fr        #
+#    Updated: 2023/02/03 09:41:39 by etavera-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,8 +40,5 @@ fclean:			clean
 				$(RM) $(NAME)
 
 re:				fclean $(NAME)
-
-bonus:			$(OBJS)
-				ar rcs $(NAME) $(OBJS)
 
 .PHONY:			all clean fclean re bonus

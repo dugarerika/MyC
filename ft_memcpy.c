@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 11:06:13 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/02 11:13:29 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/03 11:25:10 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,30 +28,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return ((void *) dest);
 }
-
-// int	main(void)
-// {
-// 	char	src[] = "copia esto";
-// 	char	dest[100];
-
-// 	char *dest_print1 = memcpy(dest, src, strlen(src) + 1);
-// 	char *dest_print2 = ft_memcpy(dest, src, strlen(src) + 1);
-
-// 	// char *dest_print1 = memcpy(NULL, NULL, 3);
-// 	// char *dest_print2 = ft_memcpy(NULL, NULL, 3);
-
-// 	// char *dest_print1 = memcpy(NULL, NULL, 3);
-// 	// char *dest_print2 = ft_memcpy(NULL, NULL, 3);
-
-// 	printf("   src: %s\n", src);
-// 	printf("  dest: %s\n", dest);
-// 	printf("result1: %s\n", dest_print1);
-// 	printf("result2: %s\n", dest_print2);
-// 	printf("  dest: %p\n", dest);
-// 	printf("result1: %p\n", dest_print1);
-// 	printf("result2: %p\n", dest_print2);
-// 	// strcpy(dest; "destino information informacion");
-// 	// // puts(dest);
-// 	// strcpy(src, "fuente information informacion");
-// 	// // puts(src);
-// }
