@@ -6,7 +6,7 @@
 /*   By: etavera- <etavera-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 11:42:19 by etavera-          #+#    #+#             */
-/*   Updated: 2023/02/03 13:51:30 by etavera-         ###   ########.fr       */
+/*   Updated: 2023/02/06 07:11:48 by etavera-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,8 +43,6 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 
 	i = 0;
 	j = 0;
-	if (!dest || !src)
-		return (0);
 	while (src[i] != '\0')
 	{
 		if (size != 0 && (i < (size - 1)))
